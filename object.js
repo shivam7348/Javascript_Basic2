@@ -17,4 +17,17 @@ const tinderUser = {}
         }
     }
  }
- console.log(regularUser.fullName.userfulllname.firstname)
+//  console.log(regularUser.fullName.userfulllname.firstname)
+const obj1 = { 1: "a", 2: "b"}
+const obj2 = {3}
+
+
+
+
+
+
+
+
+
+
+
