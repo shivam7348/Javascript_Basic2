@@ -14,6 +14,7 @@ arr = arr + 1
 }
 // // do while loop 
  let score = 1  
+ 
 
 
 

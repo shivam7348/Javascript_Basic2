@@ -37,15 +37,28 @@
 <script>
 //javadcript events runs squentially in javascript
 // anyshronous javascript these are activities 
+    // attachEvent() method
+    // false is default value
 
-// first event
+    // type means keyboard types of events
+    // timeStamp, defaultPrevented = we can stop that particulat thing at that time  exapmle like sumbit button approch work these method
+    //target
+    // toELement
+    //srcElemet // currentTarger,
+    // position realated question clientX, clientY, screen
+    // alt key, cntrlkey, shiftkey , keycode what is these what speed of the keybord
+
+
+// first event method
 document.getElementById('photoshop').onclick = function(){
     alert("owl clicked")
 }
-// second Event AddEvent Listenerr
-document.getElementById("japan").addEventListener('click', function() {
-    alert("Antonio Clicked")
-})
+// second Event AddEvent Listenerr method
+document.getElementById("japan").addEventListener('click', function(e) {
+console.log(e)
+}, false)
+
+
 
 
 
