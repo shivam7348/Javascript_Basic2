@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body style="background-color: #414141; color:aliceblue">
+    <h2>Amazing images</h2>
+    <div>
+        <ul id="images">
+            <li>
+                <img id="photoshop" width="200px" src="https://images.pexels.com/photos/20044471/pexels-photo-20044471/free-photo-of-a-woman-sitting-at-a-table-with-a-mug-and-a-book.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="photoshop">
+            </li>
+            <li>
+                <img id="japan" width="200px" src="https://images.pexels.com/photos/2866022/pexels-photo-2866022.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="japan">
+            </li>
+            <li>
+                <img id="antoni" width="200px" src="https://images.pexels.com/photos/8843987/pexels-photo-8843987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="AntoniGirl">
+            </li>
+            <li>
+            <img id="afzal" width="200px"
+                src=https://images.pexels.com/photos/5440051/pexels-photo-5440051.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+                alt="Azal">
+
+            </li>
+            <li>
+            <img id="salman" width="200px"
+                src="https://images.pexels.com/photos/8843987/pexels-photo-8843987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="AntoniGirl">
+            </li>
+            <li> <a style="color:blue;"  href="https://google.com" id="google"> Google </li>
+
+        </ul>
+    </div>
+</body>
+<script>
+//javadcript events runs squentially in javascript
+// anyshronous javascript these are activities 
+
+// first Event
+<!-- document.getElementById('photoshop').onclick = function(){
+    alert("owl clicked")
+} -->
+
+// Seconf Event [Propogation known]
+document.getElementById("photoshop").addEventListener('click', function() {
+    alert("owl clicked again")
+})
+
+
+
+ 
+
+
+</script>
+</html>
