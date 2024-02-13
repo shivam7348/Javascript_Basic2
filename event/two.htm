@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+</head>
+
+<body>
+
+    <h1>Task Manager</h1>
+
+    <ul id="taskList">
+        <!-- Tasks will be dynamically added here -->
+    </ul>
+
+    <input type="text" id="newTaskInput" placeholder="Add a new task">
+    <button id="addTaskButton">Add Task</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const taskList = document.getElementById('taskList');
+            const newTaskInput = document.getElementById('newTaskInput');
+            const addTaskButton = document.getElementById('addTaskButton');
+
+            addTaskButton.addEventListener('click', function () {
+                const taskText = newTaskInput.value.trim();
+
+                if (taskText !== '') {
+                    const newTask = document.createElement('li');
+                    newTask.textContent = taskText;
+                    taskList.appendChild(newTask);
+                    newTaskInput.value = '';
+                }
+            });
+
+            taskList.addEventListener('click', function (event) {
+                if (event.target.tagName === 'LI') {
+                    // Mark task as completed by adding a class
+                    event.target.classList.toggle('completed');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
