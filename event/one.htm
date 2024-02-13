@@ -57,9 +57,15 @@ document.getElementById('photoshop').onclick = function(){
 document.getElementById("japan").addEventListener('click', function(e) {
 console.log(e)
 }, false)
+//propogation how handle
+
+document.getElementById('images').addEventListener('click', function(e){
+ console.log("clicked inside the ul")
+}, false)
 
 
 
+ 
 
 
  
