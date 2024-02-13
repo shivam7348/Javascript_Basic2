@@ -10,7 +10,7 @@
     <div>
         <ul id="images">
             <li>
-                <img id="photoshop" width="200px" src="https://images.pexels.com/photos/20044471/pexels-photo-20044471/free-photo-of-a-woman-sitting-at-a-table-with-a-mug-and-a-book.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="photoshop">
+                <img id="owl" width="200px" src="https://images.pexels.com/photos/53977/eagle-owl-raptor-falconry-owl-53977.jpeg?auto=compress&cs=tinysrgb&w=600" alt="photoshop">
             </li>
             <li>
                 <img id="japan" width="200px" src="https://images.pexels.com/photos/2866022/pexels-photo-2866022.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="japan">
@@ -41,7 +41,7 @@
     // false is default value
 
     // type means keyboard types of events
-    // timeStamp, defaultPrevented = we can stop that particulat thing at that time  exapmle like sumbit button approch work these method
+    // timeStamp, defaultPrevented = we can stop that particular thing at that time  exapmle like sumbit button approch work these method
     //target
     // toELement
     //srcElemet // currentTarger,
@@ -50,23 +50,25 @@
 
 
 // first event method
-document.getElementById('photoshop').onclick = function(){
-    alert("owl clicked")
-}
+//document.getElementById('photoshop').onclick = function(){
+    //alert("owl clicked")
+//}
 // second Event AddEvent Listenerr method
-document.getElementById("japan").addEventListener('click', function(e) {
-console.log(e)
-}, false)
+//document.getElementById("japan").addEventListener('click', function(e) {
+//console.log(e)
+//}, false)
+
 //propogation how handle
 
+
 document.getElementById('images').addEventListener('click', function(e){
- console.log("clicked inside the ul")
+    console.log("clicked inside the ul");
 }, false)
 
-
-
- 
-
+document.getElementById('owl').addEventListener('click', function(e){
+    console.log("owl clicked")
+    e.stopPropagation()
+}, false)
 
  
 
