@@ -12,8 +12,12 @@ let score = null // o  // undefined = Nan
 
 let isLoggedIn = "shiv"
 let bolleanisLoggedIn = Boolean(isLoggedIn)
-console.log(bolleanisLoggedIn);    // it shows the boolean value is true or not
+//console.log(bolleanisLoggedIn);    // it shows the boolean value is true or not
 
 // 1 => true 0=> false
 // "" => false
 // "shiva" => true
+
+let someNumber = 33
+ let stringNumber = String(someNumber)
+ console.log( typeof stringNumber);
