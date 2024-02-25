@@ -61,17 +61,38 @@
 //propogation how handle
 
 
-document.getElementById('images').addEventListener('click', function(e){
-    console.log("clicked inside the ul");
+ document.getElementById('images').addEventListener('click', function(e){
+    //console.log("clicked inside the ul");
 }, false)
 
 document.getElementById('owl').addEventListener('click', function(e){
-    console.log("owl clicked")
-    e.stopPropagation()
-}, false)
+    //console.log("owl clicked")
+   // e.stopPropagation()
+}, false) 
 
+ document.getElementById('google').addEventListener('click', 
+function(e){
+//console.log("google CLicked");
+//e.preventDefault()
+//e.stopPropagation()
+}, false) 
+
+document.querySelector('#images').addEventListener('click', function(e){
+    <!-- console.log(e) -->
+})
  
+    // Get a reference to an HTML element
+    var myButton = document.getElementById('myButton');
 
+    // Define a function to be executed when the button is clicked
+    function buttonClickHandler() {
+        console.log('Button clicked!');
+    }
+
+    // Attach the event listener to the button, listening for the 'click' event
+    myButton.addEventListener('click', buttonClickHandler);
+
+    
 
 </script>
 </html>
