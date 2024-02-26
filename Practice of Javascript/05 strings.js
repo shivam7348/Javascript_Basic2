@@ -13,3 +13,7 @@ console.log(gameName[0]);
 console.log(gameName.__prot__);
 
 console.log(gameName.length);
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(3));
+
+
