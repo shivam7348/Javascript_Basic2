@@ -11,10 +11,10 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 
- const bigNumber = 356789033676865685n
+//  const bigNumber = 356789033676865685n
 
 
 // Refrence type (Not primitive)
@@ -25,3 +25,9 @@ let myObj ={
     name: "shivam",
     age: 34,
 }
+
+ const myFunction = function (){
+    console.log("Heloo World");
+ }
+
+ console.log(typeOf bigNumber)
