@@ -14,6 +14,8 @@ console.log(myArray[1])
 
 
 // myArray.unshift(9)
+myArray.shift()
+
 
 
 
