@@ -14,9 +14,10 @@ console.log(myArray[1])
 
 
 // myArray.unshift(9)
-myArray.shift()
+// myArray.shift()
 
-
+console.log(myArray.includes(9));
+console.log(myArray);
 
 
 
@@ -28,8 +29,8 @@ myArray.shift()
 
 
 
-console.log(myArray);
-myArr2.push(6)
+// console.log(myArray);
+// myArr2.push(6)
 // console.log(myArr2);
 
 
