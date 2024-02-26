@@ -17,12 +17,23 @@ const gameName = new String('hitesh-hc')
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('t'));
 
-//
+//substring and slice method
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(0, 4)
+const anotherString = gameName.slice(-8, 4)
 console.log(anotherString);
+// trim remove the spaces
+const newStringOne = "  hitesh   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+
+
+
+
+
+
 
 
 
