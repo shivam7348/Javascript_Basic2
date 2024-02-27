@@ -17,7 +17,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Abhishek",     // name is string predefined
     "full name": " Hitesh Chaudhary",
-    mySym: "myKey1",
+    [mySym]: "myKey1",
     age: 21,
     location: "JAunpur",
     email: "sachinmax746@gmail.com",
@@ -26,14 +26,27 @@ const JsUser = {
 
 
 }
-console.log(JsUser["email"])
-console.log(JsUser.email)
-console.log(JsUser["full name"])
-console.log(  typeof JsUser.mySym);
+// console.log(JsUser["email"])
+// console.log(JsUser.email)
+// console.log(JsUser["full name"])
+// console.log(  typeof JsUser.mySym);
 
 
 JsUser.email = "hiteshchatgpt"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
 JsUser.age = 34
-console.log(JsUser);
+// console.log(JsUser);
+// function like a varaiable in objects
+
+
+JsUser.greetings = function() {
+    console.log("Hitesh Js user ")
+}
+
+JsUser.greetingsTWo = function() {
+    console.log(`Hello USers: ${this.name}`);
+}
+ console.log(JsUser.greetings());
+ console.log(JsUser.greetingsTWo());
+
 
