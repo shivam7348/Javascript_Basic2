@@ -10,14 +10,30 @@
 // Object.create  // => constructors method 
 
 // Object Literals
+const mySym = Symbol("key1")
 
-const JsUser ={
+
+
+const JsUser = {
     name: "Abhishek",     // name is string predefined
+    "full name": " Hitesh Chaudhary",
+    mySym: "myKey1",
     age: 21,
     location: "JAunpur",
     email: "sachinmax746@gmail.com",
     isloggedIn: false,
-    lastLoginDays: []
+    lastLoginDays: ["Monday", "Tuesday"]
+
 
 }
-console.log();
+console.log(JsUser["email"])
+console.log(JsUser.email)
+console.log(JsUser["full name"])
+console.log(  typeof JsUser.mySym);
+
+
+JsUser.email = "hiteshchatgpt"
+Object.freeze(JsUser)
+JsUser.age = 34
+console.log(JsUser);
+
