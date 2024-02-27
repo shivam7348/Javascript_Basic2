@@ -9,4 +9,27 @@
 // 2 method //  Non singleTon objects
 
 const tinderUser = {}
-console.log(tinderUser);
+ tinderUser.id = "abc123"
+ tinderUser.name = "sammy"
+ tinderUser.isLoggedIn= false
+
+// console.log(tinderUser);
+
+const regularUser = {
+    email: "some@gail.com",
+    fullname: {
+        userfullname: {
+            firstname: "satyam",
+            lastname: "kumar"
+        }
+    }
+}
+console.log(regularUser.fullname.userfullname.firstname)
+
+
+
+
+
+
+
+
