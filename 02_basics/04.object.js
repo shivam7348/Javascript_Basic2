@@ -36,8 +36,18 @@ const obj5 = {5: "c", 4: "d"}
 const obj3 = { ...obj1, ...obj2}
 console.log(obj3);
 
+// when the data came from the database that will show by the array of objects
+ const users = [
+    {
+        id: 1,
+        email: 'somw@g,a@gmail.com',
 
+    }
+ ]
 
+ console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
 
 
 
