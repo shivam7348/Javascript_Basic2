@@ -49,6 +49,9 @@ console.log(obj3);
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser)); // it will show all the values entries and keys and values both inside the enteries
 
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
 
 
 
