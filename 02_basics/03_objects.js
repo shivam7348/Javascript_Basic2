@@ -48,5 +48,7 @@ JsUser.greetingsTWo = function() {
 }
  console.log(JsUser.greetings());
  console.log(JsUser.greetingsTWo());
+console.log(JsUser.greetings())
 
+JsUser.greetingsThree = function () 
 
