@@ -30,12 +30,26 @@ function addTwoNumbers (number1, number2) { // parameters) {
 // console.log(number1 + number2);
 // let result = number1 + number2
 // return result
-return number1 + number
+// return number1 + number
 }
 
 const result =addTwoNumbers(3, 5)
-console.log(result)
+// console.log(result)
 
+
+function loginUserMessage(username ="sam") {
+    // if(username===undefined){
+    //     console.log("Please enter a username");
+    //     return
+
+    // }
+    if(!username){
+        console.log("Please enter a username");
+    }
+    return `${username} just logged in`
+}
+// console.log(loginUserMessage('Vipin'))
+console.log(loginUserMessage())
 
 
 
