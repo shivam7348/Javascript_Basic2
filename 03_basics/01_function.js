@@ -37,22 +37,39 @@ const result =addTwoNumbers(3, 5)
 // console.log(result)
 
 
-function loginUserMessage(username ="sam") {
-    // if(username===undefined){
-    //     console.log("Please enter a username");
-    //     return
+// function loginUserMessage(username ="sam") {
+//     // if(username===undefined){
+//     //     console.log("Please enter a username");
+//     //     return
 
-    // }
-    if(!username){
-        console.log("Please enter a username");
+//     // }
+//     if(!username){
+//         console.log("Please enter a username");
+//     }
+//     return `${username} just logged in`
+// }
+// // console.log(loginUserMessage('Vipin'))
+// console.log(loginUserMessage())
+
+
+
+ function loggedin(username) {
+    if (user===undefined) {
+        // console.log("plese entered username");
+            return 
+
+        
     }
-    return `${username} just logged in`
+ }
+
+//  console.log(loggedin());
+
+
+function calculateCartPrice(num1) {
+    return num1
 }
-// console.log(loginUserMessage('Vipin'))
-console.log(loginUserMessage())
 
-
-
+console.log(calculateCartPrice(2))
 
 
 
