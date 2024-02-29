@@ -6,6 +6,6 @@ const user = {
         console.log(`${this.username}, welcome to wesite`);   // this refer to current context in object
     }
 }
-user.welcomeMessage()
+user.welcomeMessage()   // this
 
 
