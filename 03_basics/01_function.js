@@ -65,11 +65,11 @@ const result =addTwoNumbers(3, 5)
 //  console.log(loggedin());
 
 
-function calculateCartPrice(num1) {
+function calculateCartPrice(val1, val2,...num1) {   // rest operators
     return num1
 }
 
-console.log(calculateCartPrice(2))
+console.log(calculateCartPrice(200, 400, 500,2000))
 
 
 
