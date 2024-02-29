@@ -64,15 +64,21 @@ const obj3 = { ...obj1, ...obj2}
 console.log(instructor);
 
 
-const navbar = ({company})=> {
+// const navbar = ({company})=> {
 
-}
+// }
 
-navbar(company = "hitesh")
+// navbar(company = "hitesh")
+
+//  JSON format
 
 
+// {
+// "name": "django",
+// "coursename2": "js in hindi",
+// "price2": "999"
 
-
+// }
 
 
 
