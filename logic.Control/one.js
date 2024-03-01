@@ -33,3 +33,30 @@ for (let i = 0; i <=10; i++) {
 
 
 
+
+
+var c = 10
+
+
+
+let 
+const abhishek = 363
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
