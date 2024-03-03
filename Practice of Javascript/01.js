@@ -71,3 +71,17 @@ console.log(`a:${a}, b:${b}`);
 
 
 
+const two = 56778.89
+
+
+
+
+function vijay() {
+    console.log("vijay");
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        
+    }
+
+
+}
