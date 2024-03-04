@@ -29,5 +29,19 @@ li.appendChild(document.createTextNode(langName))
 document.querySelector('.language').appendChild(li)
  }
  addOptiLangage("goLang")
+
+
+ const secondLang = document.querySelector("li:nth-child(2)")
+  const newLi = document.createElement('li')
+  newLi.textContent = "Mojo"
+  secondLang.replaceWith(newLi)
+
+
+
+
+
+
 </script>
+
+
 </html>
