@@ -29,7 +29,7 @@ body.style.backgroundColor = e.target.id;
 });
 
 ## Project BackgroundChanger
-``` HTML
+```
 
 <!DOCTYPE html>
 <html lang="en">
@@ -75,4 +75,17 @@ body.style.backgroundColor = e.target.id;
     <script src="chaiaurcode.js"></script>
   </body>
 </html>
+```
+
+
+## javascript project 2 BMI Calculator
+```
+
+
+
+
+
+
+
+```
 ````
