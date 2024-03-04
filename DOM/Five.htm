@@ -36,7 +36,11 @@ document.querySelector('.language').appendChild(li)
   newLi.textContent = "Mojo"
   secondLang.replaceWith(newLi)
 
+// edit
 
+const firstLang = document.querySelector("li:first-child")
+
+firstLang.outerHTML = '<li> TypeScript</li>'
 
 
 
