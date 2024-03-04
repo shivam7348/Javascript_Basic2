@@ -21,5 +21,13 @@
  }
  addLanguage("python")
  addLanguage("typescript")
+
+
+ function addOptiLangage(langName) {
+const li = document.createElement('li')
+li.appendChild(document.createTextNode(langName))
+document.querySelector('.language').appendChild(li)
+ }
+ addOptiLangage("goLang")
 </script>
 </html>
