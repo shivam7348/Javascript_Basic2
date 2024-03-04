@@ -41,7 +41,8 @@ document.querySelector('.language').appendChild(li)
 const firstLang = document.querySelector("li:first-child")
 
 firstLang.outerHTML = '<li> TypeScript</li>'
-
+const lastLang = document.querySelector('li:last-child')
+lastLang.remove()
 
 
 
