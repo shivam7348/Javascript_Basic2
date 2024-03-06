@@ -19,6 +19,12 @@
     const changeText = function(){
         document.querySelector('h1').innerHTML = "best Javascript"
     }
-    setTimeout(changeText,2000)
+     const changeME = setTimeout(changeText,2000)
+   document.querySelector('#stop').addEventListener('click', function(){
+    clearTimeout(changeME)
+    console.log("STOP")
+   })
+
 </script>
+
 </html>
