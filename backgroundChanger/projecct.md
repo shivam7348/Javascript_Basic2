@@ -28,7 +28,7 @@ body.style.backgroundColor = e.target.id;
 });
 });
 
-## Project BackgroundChanger
+###Project BackgroundChanger
 ```
 
 <!DOCTYPE html>
@@ -78,7 +78,9 @@ body.style.backgroundColor = e.target.id;
 ```
 
 
-## javascript project 2 BMI Calculator
+## javascript project 2
+
+ BMI Calculator
 ```
 
 
