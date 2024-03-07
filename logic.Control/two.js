@@ -21,10 +21,7 @@ function handleEvent(event) {
     if (event.type ==="fulscreenchange") {
         console.table("handle a  full screen table")
     }
-} else {
-    console.log( "handle a large screen path")
-}
-
+} 
 
 
 
