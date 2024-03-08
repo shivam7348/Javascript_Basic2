@@ -9,7 +9,9 @@
     <script>
     const requestURL = 'https://github.com/shivam7348'
     const xhr = new XMLHttpRequest();
-    xhr.open('GET',requestURL)         // open sends the request
+    xhr.open('GET',requestURL)   
+    console.log(xhr.readyState)  
+    xhr.send()    // open sends the request
 
 
 
