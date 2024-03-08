@@ -14,7 +14,7 @@ return color;
 
 const startChangingColor = function() {
     document.body.style.backgroundColor = randomColors();
-}
+};
 
 const stopChangingColor = function() {
     
