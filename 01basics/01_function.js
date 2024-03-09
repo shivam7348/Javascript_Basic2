@@ -1,19 +1,19 @@
 // console.log("")
 
 function sayName() {
-    console.log("hello");
-    console.log("world");
+    // console.log("hello");
+    // console.log("world");
 }
 
 sayName()    // refrence(execution)
 // basisc function 
 function addTwoNumbers(num1, num2) {    // parameters
-     console.log("Shivam")
+    //  console.log("Shivam")
     return num1 + num2
    
 }
  const result = addTwoNumbers(2, 5)
- console.log(result);
+//  console.log(result);
 
  //////////////////
  
@@ -22,7 +22,7 @@ function addTwoNumbers(num1, num2) {    // parameters
  function loginUserMessage(username) {
 
     if(username === undefined){
-        console.log("Please enter a username");
+        // console.log("Please enter a username");
         return
     }
     return `${username}just logged in`
@@ -47,10 +47,23 @@ const user = {
 }
 
 function handleObject(anyObject){
-    console.log(`Username is ${anyObject.username}and price is ${anyObject.price}`);
+    // console.log(`Username is ${anyObject.username}and price is ${anyObject.price}`);
 }
 
-handleObject(user)
+// handleObject(user)
+
+
+
+let val1 = 10
+let val2 = 5
+
+function addNum(num1, num2) {
+let total = num1 + num2
+return total
+}
+
+let result1 =  addNum(val1, val2)
+let result2 = addNum( 10 +17)
 
 
 
