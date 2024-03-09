@@ -28,7 +28,7 @@ function addTwoNumbers(num1, num2) {    // parameters
     return `${username}just logged in`
 
  }
- console.log(loginUserMessage("shivam"));
+//  console.log(loginUserMessage("shivam"));
 
 
 
@@ -38,7 +38,20 @@ function addTwoNumbers(num1, num2) {    // parameters
  function calculationPrice( val1, val2, ...num1){
     return  num1
 }
-console.log(calculationPrice(200, 400, 500));
+// console.log(calculationPrice(200, 400, 500));
+
+
+const user = {
+    username: "hitesh",
+    price: 199
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username}and price is ${anyObject.price}`);
+}
+
+handleObject(user)
+
 
 
 
