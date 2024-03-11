@@ -40,8 +40,8 @@ for (const [key, value ]of map) {
  }
  
 const myObj = {
-    'game': 'NFS',
-    'game2': 'spiderman'
+    game: 'NFS',
+    game2: 'spiderman'
 
 }
  for (const [key, value] of myObj);{
@@ -49,6 +49,17 @@ const myObj = {
  }
 
  // ojject is not iterable in this particuolar function   
+ // for of loop is not to be used
+
+
+
+
+
+
+
+
+
+
  
  
  
