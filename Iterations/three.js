@@ -24,10 +24,10 @@ for (const greet of greetings) {
 // maps is like a array itertaor
  const map = new Map()
  map.set('In', "India")
- 
  map.set('USA', "United states of america" )
  map.set('FR', "FRance" )
-  map.set('In', "India")
+ map.set('In', "India")
+ 
 
 
 //  console.log(map);
@@ -60,7 +60,7 @@ const myObj = {
 
 
 
- 
+
  
  
  
