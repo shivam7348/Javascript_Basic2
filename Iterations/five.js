@@ -47,5 +47,6 @@ myCoding.forEach( (item) =>{
 
 
 // high order function 
+// for each does not return the value
 
 
