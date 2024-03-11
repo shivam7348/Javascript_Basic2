@@ -30,15 +30,25 @@ for (const greet of greetings) {
   map.set('In', "India")
 
 
- console.log(map);
+//  console.log(map);
  
 
 
  
 for (const [key, value ]of map) {
-    console.log(key, ':-', value);
+    // console.log(key, ':-', value);
  }
  
+const myObj = {
+    'game': 'NFS',
+    'game2': 'spiderman'
+
+}
+ for (const [key, value] of myObj);{
+    console.log(key, ':- ', value)
+ }
+
+ // ojject is not iterable in this particuolar function   
  
  
  
