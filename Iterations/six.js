@@ -77,7 +77,35 @@ const coding = [ "js", "css", "cpp","java", "xml"]
   // console.log(item);
   return item
 })
-console.log(values);
+// console.log(values);
+
+const muNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+muNums.forEach((item) => {
+  console.log(item *2 );
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
