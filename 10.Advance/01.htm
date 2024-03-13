@@ -30,6 +30,20 @@
 addOPtiLangauge('Google')
 
 
+// edit
+
+
+ const secondLang = document.querySelector('li:nth-child(2)')
+ console.log(secondLang);
+ const newLI = document.createElement('li')
+ newLI.textContent = "MOJO"
+ secondLang.replaceWith(newLI)
+
+// edit
+
+ const firstLang = document.querySelector('li:first-child')
+ firstLang.outerHTML = '<li>TypeScript</li>'
+
 
 
 </script>
